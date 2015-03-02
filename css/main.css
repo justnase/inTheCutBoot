@@ -6,7 +6,6 @@
 
 
 .title {
-    display: block;
     font-family: 'Anton', sans-serif;
     font-size: 4em;
     line-height: 2;
@@ -37,6 +36,16 @@
 .greenTheme {
 	background-color: #6b8e23;
 }
+
+.jumbotron {
+	color: #6b8e23;
+	text-decoration: none;
+}
+
+footer {
+	font-family: 'Anton', sans-serif;
+}
+
 
 /*Media Queries*/
 
