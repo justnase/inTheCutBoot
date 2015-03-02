@@ -1,0 +1,59 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.title {
+    display: block;
+    font-family: 'Anton', sans-serif;
+    font-size: 4em;
+    line-height: 2;
+    display: none;
+}
+
+.navbar-brand {
+	font-family: 'Anton', sans-serif;
+	font-size: 2em;
+}
+
+.title span, .navbar-brand span {
+    color: #6b8e23;
+}
+
+.site-wrapper {
+	background-image: url('../img/mainFlowers.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: transparent;
+	background-position: center center;
+}
+
+.navbar-green {
+	background-color: #9acd32;
+}
+
+.greenTheme {
+	background-color: #6b8e23;
+}
+
+/*Media Queries*/
+
+@media (min-width: 768px) {
+	.title {
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
