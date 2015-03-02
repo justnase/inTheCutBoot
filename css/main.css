@@ -43,7 +43,39 @@
 }
 
 footer {
-	font-family: 'Anton', sans-serif;
+	font-size: 1.5em;
+	margin-bottom: 55px;
+}
+
+.john {
+	display: none;
+}
+
+.mobileFooter {
+	display: block;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:55px;
+    line-height: 55px;
+    width:100%;
+    text-align: center;
+}
+
+.mobileFooter a {
+    float: left;
+    width: 49.8%;
+    height: 100%;
+    background: #b22222;
+    color: white;
+    border-right: 1px solid #8b0000;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.mobileFooter a:last-child {
+    background: #4692b4;
+    border-right: none;
 }
 
 
@@ -53,7 +85,17 @@ footer {
 	.title {
 		display: block;
 	}
+
+	.mobileFooter {
+		display: none;
+	}
+
+	.john {
+		display: block;
+	}
 }
+
+
 
 
 
